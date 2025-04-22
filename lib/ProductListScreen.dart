@@ -289,7 +289,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
       children: [
         // Añade un Container con altura fija para la imagen
         Container(
-          height: 170, // Altura fija para la sección de imagen
+          height: 150, // Altura fija para la sección de imagen
           child: ClipRRect(
             borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
             child: product.imagenUrl.isEmpty
